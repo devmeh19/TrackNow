@@ -1,6 +1,6 @@
 # TrackNow - Real-Time Volunteer Tracking System
 
-![TrackNow Logo](docs/logo.png)
+
 
 TrackNow is a comprehensive real-time tracking and management system designed for coordinating volunteers during events and emergency situations. The system provides real-time location tracking, geofencing, chat functionality, and distance measurements between volunteers.
 
@@ -27,7 +27,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - Rule-based geofence triggers
 
 ### Communication Tools
-![Chat Interface](docs/chat.png)
+
 - Real-time chat system for event coordination
 - System notifications for important events
 - Visual alerts for geofence breaches
@@ -36,7 +36,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - Offline message handling
 
 ### Distance Measurement
-![Distance Measurement](docs/distance.png)
+
 - Measure distances between selected volunteers
 - Visual distance lines on the map
 - Real-time distance updates
@@ -45,7 +45,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - Area coverage analysis
 
 ### User Interface
-![User Interface](docs/ui.png)
+
 - Clean and intuitive map interface
 - Easy-to-use controls for all features
 - Responsive design for various screen sizes
@@ -64,7 +64,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - Responsive design framework
 
 ### Backend
-![Backend Architecture](docs/backend.png)
+
 - Node.js with Express.js
 - Socket.IO for real-time communication
 - MongoDB with PostGIS for geospatial queries
@@ -73,7 +73,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - JWT for authentication
 
 ### Data Processing
-![Data Processing](docs/data-processing.png)
+
 - Kafka Streams for real-time data processing
 - Redis for caching and session management
 - MongoDB for persistent storage
@@ -84,7 +84,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 ## Usage
 
 ### Getting Started
-![Getting Started](docs/getting-started.png)
+
 
 1. **Login/Register**: Create an account or login to access the system
 2. **Join Event**: Enter your name and event ID to join a tracking session
@@ -98,7 +98,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 ## Advanced Features
 
 ### Kafka Integration
-![Kafka Integration](docs/kafka.png)
+
 - Real-time event streaming
 - Geofence breach notifications
 - Location update processing
@@ -106,7 +106,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - System event logging
 
 ### Redis Features
-![Redis Features](docs/redis.png)
+
 - Session management
 - Real-time message queuing
 - Caching of frequently accessed data
@@ -114,7 +114,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - Rate limiting implementation
 
 ### Heatmap Analytics
-![Heatmap Analytics](docs/heatmap.png)
+
 - Real-time density visualization
 - Historical pattern analysis
 - Custom color gradients
