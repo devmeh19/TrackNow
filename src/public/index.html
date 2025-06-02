@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackNow - Real-time Volunteer Location Tracking</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TrackNow</h1>
+        <div class="event-controls">
+            <input type="text" id="volunteerName" placeholder="Enter your name">
+            <input type="text" id="eventId" placeholder="Enter Event ID">
+            <button id="joinEvent">Join Event</button>
+            <button id="leaveEvent">Leave Event</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="map"></div>
+        
+        <div class="sidebar">
+            <div class="volunteers-section">
+                <h2>Active Volunteers</h2>
+                <div id="volunteersList" class="volunteers-list"></div>
+            </div>
+
+            <div class="chat-section">
+                <h2>Event Chat</h2>
+                <div id="chat-messages" class="chat-messages"></div>
+                <div class="chat-input-container">
+                    <input type="text" id="chat-input" placeholder="Type your message...">
+                    <button id="send-message">Send</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html> 
