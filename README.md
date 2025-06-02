@@ -36,7 +36,7 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - Offline message handling
 
 ### Distance Measurement
-
+![Distance Measurement](docs/distance1.png)
 - Measure distances between selected volunteers
 - Visual distance lines on the map
 - Real-time distance updates
