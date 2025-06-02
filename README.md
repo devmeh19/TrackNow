@@ -80,50 +80,6 @@ TrackNow is a comprehensive real-time tracking and management system designed fo
 - PostGIS for advanced spatial queries
 - Real-time analytics processing
 
-## Setup Instructions
-
-1. Clone the repository:
-```bash
-git clone https://github.com/devmeh19/TrackNow.git
-cd tracknow
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Set up environment variables:
-Create a `.env` file in the root directory with the following variables:
-```
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-PORT=3000
-KAFKA_BROKERS=localhost:9092
-REDIS_HOST=localhost
-REDIS_PORT=6379
-REDIS_PASSWORD=your_redis_password
-```
-
-4. Start required services:
-```bash
-# Start Kafka
-kafka-server-start config/server.properties
-
-# Start Redis
-redis-server
-
-# Start MongoDB
-mongod --dbpath /path/to/data/db
-```
-
-5. Start the server:
-```bash
-npm run dev
-```
-
-6. Access the application:
-Open your browser and navigate to `http://localhost:3000`
 
 ## Usage
 
@@ -175,37 +131,5 @@ Open your browser and navigate to `http://localhost:3000`
 - Redis-based session management
 - Kafka message encryption
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
-
----
-
-## Screenshots
-
-### Main Dashboard
-![Main Dashboard](docs/dashboard.png)
-
-### Volunteer Tracking
-![Volunteer Tracking](docs/tracking.png)
-
-### Geofence Management
-![Geofence Management](docs/geofence-management.png)
-
-### Chat Interface
-![Chat Interface](docs/chat-interface.png)
-
-### Mobile View
-![Mobile View](docs/mobile.png) 
